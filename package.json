@@ -1,0 +1,32 @@
+{
+  "name": "xdrwrapper",
+  "description": "Wrapper around XDomainRequests to support full-range of HTTP verbs in IE's AJAX requests.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/audiosocket/backbone.xdrwrapper",
+  "author": "Audiosocket <tech@audiosocket.com>",
+  "repository":
+    {
+      "type":"git",
+      "url":"git://github.com/audiosocket/backbone.xdrwrapper.git"
+    },
+  "bugs":
+    {
+      "mail":"tech@audiosocket.com",
+      "url":"http://github.com/audiosocket/backbone.xdrwrapper/issues"
+    },
+  "main": "backbone.xdrwrapper.js",
+  "lib": ".",
+  "licences":
+    [
+      {
+        "type":"MIT",
+        "url": "http://www.opensource.org/licenses/MIT"
+      }
+    ],
+  "dependencies": {
+    "jquery"             : "1.7.3",
+  },
+  "devDependencies" : {
+    "coffee-script" : "1.3.1"
+  }
+}
