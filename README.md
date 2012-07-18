@@ -20,7 +20,7 @@ if window.XDomainRequest?
 How it works?
 -------------
 
-All requests issues using `XDRWrapper` are wrapped into a single `POST` JSON request. For instance the following request:
+All requests issued using `XDRWrapper` are wrapped into a single `POST` JSON request. For instance the following request:
 
 ```
 PUT /api/foo HTTP/1.1
